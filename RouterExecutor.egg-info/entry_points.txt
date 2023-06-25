@@ -1,0 +1,2 @@
+[console_scripts]
+RouterExecutor = RouterExecutor.connection_channel:main

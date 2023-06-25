@@ -1,9 +1,0 @@
-README.md
-setup.py
-AllamRouterExecutor/__init__.py
-AllamRouterExecutor.egg-info/PKG-INFO
-AllamRouterExecutor.egg-info/SOURCES.txt
-AllamRouterExecutor.egg-info/dependency_links.txt
-AllamRouterExecutor.egg-info/entry_points.txt
-AllamRouterExecutor.egg-info/requires.txt
-AllamRouterExecutor.egg-info/top_level.txt

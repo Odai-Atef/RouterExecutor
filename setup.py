@@ -1,20 +1,20 @@
 from distutils.core import setup
 setup(
-  name = 'AllamRouterExecutor',         # How you named your package folder (MyLib)
-  packages = ['AllamRouterExecutor'],   # Chose the same as "name"
-  version = '0.1.0',      # Start with a small number and increase it with every change you make
+  name = 'RouterExecutor',         # How you named your package folder (MyLib)
+  packages = ['RouterExecutor'],   # Chose the same as "name"
+  version = '0.2.0',      # Start with a small number and increase it with every change you make
   license='OpenSource',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Route message through Queues',   # Give a short description about your library
   author = 'Odai',                   # Type in your name
   author_email = 'o.3odai@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/Odai-Atef/logs_hub_python3',   # Provide either the link to your github or to your website
+  url = 'https://github.com/Odai-Atef/RouterExecutor',   # Provide either the link to your github or to your website
   install_requires=[            # I get to this in a second
           'python-decouple',
           'requests',
           'kafka-python'
       ],
   entry_points={
-    'console_scripts': ['AllamRouterExecutor=AllamRouterExecutor.connection_channel:main']
+    'console_scripts': ['RouterExecutor=RouterExecutor.connection_channel:main']
   },
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
@@ -24,6 +24,7 @@ setup(
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
-    'Programming Language :: Python :: 3.6'
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7'
   ],
 )

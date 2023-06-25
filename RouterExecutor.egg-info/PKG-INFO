@@ -1,7 +1,8 @@
 Metadata-Version: 2.1
-Name: AllamRouterExecutor
-Version: 0.1.0
+Name: RouterExecutor
+Version: 0.2.0
 Summary: Route message through Queues
+Home-page: https://github.com/Odai-Atef/RouterExecutor
 Author: Odai
 Author-email: o.3odai@gmail.com
 License: OpenSource
@@ -12,3 +13,4 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.4
 Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

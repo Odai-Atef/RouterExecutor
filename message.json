@@ -1,0 +1,26 @@
+{
+	"propmt": {
+		"text": "",
+		"id": "",
+		"progress": 0
+	},
+	"router": [{
+		"model_name": "",
+		"topic_name": "",
+		"status": "waiting",
+		"result": {},
+        "execution_time":""
+	}, {
+		"model_name": "",
+		"topic_name": "",
+		"status": "waiting",
+		"result": {},
+        "execution_time":""
+	}, {
+		"model_name": "",
+		"topic_name": "",
+		"status": "waiting",
+		"result": {},
+        "execution_time":""
+	}]
+}

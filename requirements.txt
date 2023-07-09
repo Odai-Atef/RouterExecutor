@@ -1,2 +1,4 @@
+freezegun~=1.2.2
 kafka-python==2.0.2
 python-decouple==3.8
+python-dotenv==1.0.0

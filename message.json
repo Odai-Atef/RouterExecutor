@@ -1,26 +1,37 @@
 {
-	"propmt": {
-		"text": "",
-		"id": "",
-		"progress": 0
-	},
-	"router": [{
-		"model_name": "",
-		"topic_name": "",
-		"status": "waiting",
-		"result": {},
-        "execution_time":""
-	}, {
-		"model_name": "",
-		"topic_name": "",
-		"status": "waiting",
-		"result": {},
-        "execution_time":""
-	}, {
-		"model_name": "",
-		"topic_name": "",
-		"status": "waiting",
-		"result": {},
-        "execution_time":""
-	}]
+  "prompt": {
+	"messages": [
+      {
+        "role": "user",
+        "content": "Question 1"
+      }
+    ],
+    "id": 183039,
+    "type": "general",
+    "capture_date": "2023-07-09T11:14:13.357353Z",
+    "progress": 0
+},
+  "router": [
+    {
+      "model_name": "",
+      "topic_name": "",
+      "status": "waiting",
+      "result": {},
+      "execution_time": ""
+    },
+    {
+      "model_name": "",
+      "topic_name": "",
+      "status": "waiting",
+      "result": {},
+      "execution_time": ""
+    },
+    {
+      "model_name": "",
+      "topic_name": "",
+      "status": "waiting",
+      "result": {},
+      "execution_time": ""
+    }
+  ]
 }

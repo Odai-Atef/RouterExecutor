@@ -1,9 +1,0 @@
-README.md
-setup.py
-RouterExecutor/__init__.py
-RouterExecutor.egg-info/PKG-INFO
-RouterExecutor.egg-info/SOURCES.txt
-RouterExecutor.egg-info/dependency_links.txt
-RouterExecutor.egg-info/entry_points.txt
-RouterExecutor.egg-info/requires.txt
-RouterExecutor.egg-info/top_level.txt

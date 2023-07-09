@@ -11,7 +11,8 @@ pip install RouterExecutor
 ```
 
 ## Usage (Prompt Routing Service)
-wdwa
+
+To add model for e.g. Retriever use this function manager.add_model() and pass the name of the service and topic.
 
 ```python
 
@@ -85,3 +86,75 @@ router.consume(cb=call_back)
 ```
 
 
+# JSON Structure
+This library will handle the json.
+
+### First JSON
+```json
+{
+    "prompt": {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Question 1"
+            }
+        ],
+        "id": 183039,
+        "type": "general",
+        "capture_date": "2023-07-09T11:14:13.357353Z",
+        "progress": 0,
+        "final_destination_topic":"result"
+    },
+    "router": [
+        {
+            "model_name": "prompt_router",
+            "topic_name": "prompt_router",
+            "status": "waiting",
+            "result": {},
+            "execution_time": 0
+        }
+    ]
+}
+```
+
+### Final JSON
+
+```json
+{
+  "prompt": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Question 1"
+      }
+    ],
+    "id": 183039,
+    "type": "general",
+    "capture_date": "2023-07-09T11:14:13.357353Z",
+    "progress": 0,
+    "final_destination_topic": "result"
+  },
+  "router": [
+    {
+      "model_name": "prompt_router",
+      "topic_name": "prompt_router",
+      "status": "done",
+      "result": {
+        "is_retrival": true
+      },
+      "execution_time": 0.00006413459777832031
+    },
+    {
+      "model_name": "retriever",
+      "topic_name": "retriever",
+      "status": "done",
+      "result": [
+        "retriever",
+        "retriever",
+        "retriever"
+      ],
+      "execution_time": 0.00003695487976074219
+    }
+  ]
+}
+```
